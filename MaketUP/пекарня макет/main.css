@@ -1,0 +1,565 @@
+body{
+    margin: 0;
+}
+.menu-navigation{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.menu-navigation-logo{
+    display: flex;
+    align-items: center;
+    gap:100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:550px;
+    height: 89px;
+}
+.btn-nav{
+    width: 138px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.Fresh-Bakery-left{
+    background-color:rgba(231, 212, 190, 0.44);
+    width: 1000px;
+    height: 870px;
+    z-index: -2;
+}
+.Fresh-Bakery{
+    display: flex;
+    justify-content: center;
+}
+.wheat{
+    position: absolute;
+    left: -2%;
+    z-index: -1;
+}
+.seeds{
+    position:absolute;
+    left: 28%;
+    top: 29%;
+    z-index: -1;
+}
+.BKR{
+    color: #000;
+    font-family: "Ultra";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+.About-Products-Recipes{
+    color: #000;
+    text-align: right;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.Fresh-Bakery-left-text-1{
+    color: #000;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Fresh-Bakery-left-text-2{
+    color: #000;
+    font-family: "Ultra";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;  
+    margin: 0;
+}
+.Fresh-Bakery-left-text-3{
+    color: #000;
+    font-family:"DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.Fresh-Bakery-left-text-center{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+.Baking-Special-Moments-left{
+    width: 1000px;
+    height: 870px;
+}
+.Baking-Special-Moments-left-img-5{
+    position: relative;
+    bottom: 15%;
+    left: -15%;
+    z-index: -1 ;
+}
+.Baking-Special-Moments-left-img-4{
+    position: relative;
+    bottom: 18%;
+    left: 34%;
+    z-index: 2 ;
+}
+.Baking-Special-Moments-left-img-3{
+    position: relative;
+    top: 7%;
+    right:1%;
+    z-index: 2 ;
+}
+.Baking-Special-Moments-left-img-2{
+    position: relative;
+    top: 1%;
+    left:51%;
+    z-index: 1;
+}
+.Baking-Special-Moments-left-img-1{
+    position: relative;
+    top: 30%;
+    left:19%;
+    z-index: 1;
+}
+.Baking-Special-Moments-right-top-text-1{
+    color: #171B1B;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Baking-Special-Moments-right-top-text-2{
+    color: #171B1B;
+    font-family: "Ultra";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; 
+    margin: 0;
+}
+.Baking-Special-Moments-left {
+    width: 1000px;
+    height: 870px;
+}
+.Baking-Special-Moments-left-img-5 {
+    position: relative;
+    bottom: 15%;
+    left: -15%;
+    z-index: -1;
+}
+.Baking-Special-Moments-left-img-4 {
+    position: relative;
+    bottom: 18%;
+    left: 34%;
+    z-index: 2;
+}
+.Baking-Special-Moments-left-img-3 {
+    position: relative;
+    top: 7%;
+    right: 1%;
+    z-index: 2;
+}
+.Baking-Special-Moments-left-img-2 {
+    position: relative;
+    top: 1%;
+    left: 51%;
+    z-index: 1;
+}
+.Baking-Special-Moments-left-img-1 {
+    position: relative;
+    top: 30%;
+    left: 19%;
+    z-index: 1;
+}
+.Baking-Special-Moments-right-top-text-1 {
+    color: #171B1B;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Baking-Special-Moments-right-top-text-2 {
+    color: #171B1B;
+    font-family: "Ultra";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    margin: 0;
+}
+.Baking-Special-Moments {
+    display: flex;
+    padding-top: 4%;
+}
+.flex-btn-Baking-Special-Moments-right-Baking-Special-Moments-right-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.Baking-Special-Moments-right-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.Baking-Special-Moments-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 5%;
+}
+.flex-btn-Baking-Special-Moments-right {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5%;
+    justify-content: space-between;
+
+}
+.btn {
+    width: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+    gap: 8px;
+}
+.but-1-2 {
+    background-color: rgba(23, 27, 27, 1);
+    height: 48px;
+    width: 48px;
+    border-radius: 100px;
+    border: none;
+}
+
+.Baking-Special-Moments-right-text-1 {
+    font-size: 16px;
+    font-family: "Oswald";
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 32px;
+    letter-spacing: 3px;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.Baking-Special-Moments-right-text-2 {
+    font-size: 24px;
+    font-family: "Oswald";
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.Baking-Special-Moments-right-text-3 {
+    color: rgba(51, 51, 51, 0.50);
+    font-size: 16px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.Baking-Special-Moments-right-text-4 {
+    font-size: 16px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin: 0;
+}
+.Our-Features-text-1{
+    color: #171B1B;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Our-Features-text-2{
+    color: #171B1B;
+    text-align: center;
+    font-family: "Ultra";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; 
+}
+.Fresh-Natural-Tasty{
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.block-Fresh-Natural-Tasty-1{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/1-block-wht.png);
+    transition: 2s;
+}
+.block-Fresh-Natural-Tasty-1:hover{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/1-block.png);
+    transition: 2s;
+}
+.block-Fresh-Natural-Tasty-2{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/2-block-wht.png);
+    transition: 2s;
+}
+.block-Fresh-Natural-Tasty-2:hover{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/2-block.png);
+    transition: 2s;
+}
+
+.block-Fresh-Natural-Tasty-3{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/3-block-wht.png);
+    transition: 2s;
+}
+.block-Fresh-Natural-Tasty-3:hover{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/3-block.png);
+    transition: 2s;
+}
+.Fresh-Natural-Tasty-text-2{
+    margin-left: 5%;
+    color: rgba(51, 51, 51, 0.50);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.Fresh-Natural-Tasty-text-1{
+    margin-top: 50%;
+    margin-left: 5%;
+    color: #171B1B;
+    font-family: "Ultra";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+.Our-Video{
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    margin-top:5% ;
+    background-image: url(images/image\ 2.png);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.play{
+    height: 160px;
+    width: 160px;
+    border-radius: 150px;
+    border: none;
+    align-items:center;
+}
+.Our-Video-text-1{
+    color: #FFF;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Our-Video-text-2{
+    margin: 0;
+    color: #FFF;
+    font-family: "Ultra";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; 
+}
+.touch{
+    position: relative;
+    left: 2%;
+    z-index: 1;
+}
+.Our-Products-text-1{
+    color: #171B1B;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Our-Products-text-2{
+    margin: 0;
+    color: #171B1B;
+    font-family: "Ultra";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+}
+.Our-Products{
+    height: 500px;
+    width: 1170px;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+.Bakery{
+    margin-top: 5%;
+    width: 800px;   
+    height: 448px;
+    background-image:  url(images/Bitmap\ \(5\).png);
+    background-repeat: no-repeat;
+    
+}
+.Bakery-text-1{
+    color: #FFF;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Bakery-text-2{
+    color: #FFF;
+    font-family: "Ultra";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+.Bakery-text-3{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    }
+.Bakery-text{
+    position: relative;
+    top: 35%;
+    left: 5%;
+}
+.price{
+    color: #FFF;
+    text-align: right;
+    font-family: "Ultra";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 0;
+    
+}
+.flex-Bakery-text-3{
+    display: flex;
+    align-items: center;
+    gap: 37%;
+}
+.bread{
+    margin-top: 5%;
+    width: 370px;
+    height: 448px;
+}
+.bread-text-1{
+    color: #171B1B;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+.bread-text-2{
+    color: #171B1B;
+    font-family: "Oswald";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;  
+    margin: 0;
+    margin-left: 5%;
+}
+.bread-text-3{
+    color: #171B1B;
+    text-align: right;
+    font-family: "Ultra";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; 
+    margin: 0;
+    margin-right: 10%;
+}
+.bread-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Bakery-bread-flex{
+    display: flex;
+}
+.flex-cupcake-biscuits-brioche{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.but-Explore{
+    background-color: #FFF;
+    position: relative;
+    left: 42%;
+    top: 20%;
+    width: 170px;
+    height: 48px;
+    color: #171B1B;
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    border: rgba(23, 27, 27, 0.2406) 1px solid;
+}
